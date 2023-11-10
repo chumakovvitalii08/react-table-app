@@ -1,0 +1,66 @@
+html {
+  font-family: 'Urbanist', sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: gainsboro;
+}
+
+.table-interface {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 85vh;
+  width: 75%;
+  border-radius: 15px;
+  background-color: white;
+  padding: 15px;
+}
+
+table {
+  width: 100%;
+}
+
+.table {
+  padding: 15px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.input {
+  border: 1px solid gainsboro;
+  height: 30px;
+  width: 500px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.button {
+  border: 0;
+  border-radius: 5px;
+  height: 30px;
+  width: 50px;
+  margin: 0 10px;
+  background-color: gainsboro;
+  margin-top: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+.avatar {
+  width: 60px;
+  border-radius: 5px;
+}
+
+.link {
+  color: dimgray;
+}
